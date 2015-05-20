@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Tue May 19 15:31:10 EEST 2015
+org.eclipse.jst.jee.server\:SpringMVC=/home/mif/Documents/ide/sts-bundle/pivotal-tc-server-developer-3.1.0.RELEASE/base-instance/wtpwebapps/SpringMVC
+org.eclipse.jst.jee.server\:NewDemo=/home/mif/Documents/ide/sts-bundle/pivotal-tc-server-developer-3.1.0.RELEASE/base-instance/wtpwebapps/NewDemo
+org.eclipse.jst.jee.server\:/binary\:/home/mif/.m2/repository/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE.jar=/home/mif/Documents/ide/sts-bundle/pivotal-tc-server-developer-3.1.0.RELEASE/base-instance/wtpwebapps/SpringMVC/WEB-INF/lib/spring-web-4.1.6.RELEASE.jar
