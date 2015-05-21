@@ -1,0 +1,9 @@
+package springCRUD.books.dao;
+
+public interface BooksDao {
+	//Create and Update
+	
+	//Delete
+	
+	//Read
+}

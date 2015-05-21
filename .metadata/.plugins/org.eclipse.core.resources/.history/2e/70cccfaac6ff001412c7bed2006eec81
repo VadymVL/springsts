@@ -1,0 +1,30 @@
+package springCRUD.books.dao.impl;
+
+import java.util.List;
+
+import springCRUD.books.dao.BooksDao;
+import springCRUD.books.model.Book;
+
+public class BooksDaoImpl implements BooksDao {
+
+	public void saveBook(Book book) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void deleteBook(long id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public List<Book> listBooks() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Book getBook(long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,38 @@
+package springCRUD.books.dao.impl;
+
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import springCRUD.books.dao.BooksDao;
+import springCRUD.books.model.Book;
+
+@Repository
+public class BooksDaoImpl implements BooksDao {
+
+	@Autowired
+	private SessionFactory sessionFactory;
+	
+	public void saveBook(Book book) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void deleteBook(long id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public List<Book> listBooks() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Book getBook(long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

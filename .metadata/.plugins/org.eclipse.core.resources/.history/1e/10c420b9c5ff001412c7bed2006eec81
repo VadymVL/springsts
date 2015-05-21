@@ -1,0 +1,5 @@
+package springCRUD.books.dao.impl;
+
+public class BooksDaoImpl implements BooksDao {
+
+}

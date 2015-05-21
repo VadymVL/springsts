@@ -5,7 +5,25 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2015-05-19T23:02:00Z</updated>
+  <updated>2015-05-20T16:28:00Z</updated>
+  <entry>
+    <title>Webinar Replay: Reactive data-pipelines with Spring XD and Kafka</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/05/20/webinar-replay-reactive-data-pipelines-with-spring-xd-and-kafka" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2015-05-20:2132</id>
+    <updated>2015-05-20T16:28:00Z</updated>
+    <content type="html">&lt;p&gt;Speakers: Marius Bogoevici &amp;amp; Mark Pollack &lt;/p&gt;
+&lt;p&gt;Slides: &lt;a href="https://speakerdeck.com/mbogoevici/reactive-data-pipelines-with-spring-xd-and-kafka"&gt;https://speakerdeck.com/mbogoevici/reactive-data-pipelines-with-spring-xd-and-kafka &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In the recent years, drastic increases in data volume as well as a greater demand for low latency have led to a radical shift in business requirements and application development methods. In response to these demands, frameworks such as RxJava and high throughput messaging systems such as Kafka have emerged as key building blocks. However, integrating technologies is never easy and Spring XD provides a solution. Through its development model and runtime, Spring XD makes it easy to develop highly scalable data pipelines, and lets you focus on writing and testing business logic vs. integrating and scaling a big data stack. Come and see how easy this can be in this webinar, where we will demonstrate how to build highly scalable data pipelines with RxJava and Kafka, using Spring XD as a platform. In the recent years, drastic increases in data volume as well as a greater demand for low latency have led to a radical shift in business requirements and application development methods. In response to these demands, frameworks such as RxJava and high throughput messaging systems such as Kafka have emerged as key building blocks. However, integrating technologies is never easy and Spring XD provides a solution. Through its development model and runtime, Spring XD makes it easy to develop highly scalable data pipelines, and lets you focus on writing and testing business logic vs. integrating and scaling a big data stack. Come and see how easy this can be in this webinar, where we will demonstrate how to build highly scalable data pipelines with RxJava and Kafka, using Spring XD as a platform.&lt;/p&gt;
+&lt;p&gt; Learn more about Spring XD at http://projects.spring.io/spring-xd&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&#xD;
+  &lt;iframe width="420" height="315" src="https://www.youtube.com/embed/nP7Cx4yeZU4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&#xD;
+&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>This Week in Spring - May 19th, 2015</title>
     <link rel="alternate" href="https://spring.io/blog/2015/05/19/this-week-in-spring-may-19th-2015" />
@@ -802,22 +820,6 @@ public String handleWithDeclare(String foo) {&#xD;
 	return foo.toUpperCase();&#xD;
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;In this example, the queue &lt;code&gt;auto.declare&lt;/code&gt; is declared and bound to exchange &lt;code&gt;auto.exch&lt;/code&gt; with routing key &lt;code&gt;auto.rk&lt;/code&gt;. The exchange is declared too.&lt;/p&gt;&lt;p&gt;Previously, the &lt;code&gt;Queue&lt;/code&gt;, &lt;code&gt;Exchange&lt;/code&gt; and &lt;code&gt;Binding&lt;/code&gt; had to be declared as separate &lt;code&gt;@Bean&lt;/code&gt;s.&lt;/p&gt;&lt;h2&gt;&lt;a href="#configurable-exchange-routing-key-for-replies" class="anchor" name="configurable-exchange-routing-key-for-replies"&gt;&lt;/a&gt;Configurable Exchange/Routing Key for Replies&lt;/h2&gt;&lt;p&gt;Previously, when using request/reply messaging with the &lt;code&gt;RabbitTemplate&lt;/code&gt;, replies were routed to the default exchange and routed with the queue name. It is now possible to supply a &lt;code&gt;reply-address&lt;/code&gt; with the form &lt;code&gt;exchange/routingKey&lt;/code&gt; to route using a specific exchange and routing key.&lt;/p&gt;&lt;h2&gt;&lt;a href="#rabbitmanagementtemplate" class="anchor" name="rabbitmanagementtemplate"&gt;&lt;/a&gt;RabbitManagementTemplate&lt;/h2&gt;&lt;p&gt;The &lt;code&gt;spring-erlang&lt;/code&gt; jar is no longer provided. Users are encouraged to use the RabbitMQ REST API instead. The RabbitMQ team are working on a Java binding for the REST API and Spring AMQP now provides a lightweight wrapper for that API using the familiar &lt;code&gt;Queue&lt;/code&gt;, &lt;code&gt;Exchange&lt;/code&gt; and &lt;code&gt;Binding&lt;/code&gt; domain objects.&lt;/p&gt;&lt;h2&gt;&lt;a href="#conclusion" class="anchor" name="conclusion"&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;&lt;p&gt;Complete details of the new features can be found in the &lt;a href="http://docs.spring.io/spring-amqp/docs/1.5.0.M1/reference/html/_introduction.html#_changes_in_1_5_since_1_4"&gt;What&amp;rsquo;s New section of the reference manual&lt;/a&gt; and the &lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10450&amp;version=14837"&gt;JIRA release notes&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Users are encouraged to try the new features before the GA release and provide feedback using the normal channels (&lt;code&gt;spring-amqp&lt;/code&gt; tag on Stack Overflow, and JIRA).&lt;/p&gt;&lt;p&gt;See &lt;a href="http://projects.spring.io/spring-amqp/"&gt;the project page&lt;/a&gt; for links to documentation and downloads.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Webinar Replay:  Smarter Service-to-Service Invocations with Spring Cloud</title>
-    <link rel="alternate" href="https://spring.io/blog/2015/05/07/webinar-replay-smarter-service-to-service-invocations-with-spring-cloud" />
-    <category term="news" label="News and Events" />
-    <author>
-      <name>Pieter Humphrey</name>
-    </author>
-    <id>tag:spring.io,2015-05-07:2115</id>
-    <updated>2015-05-07T13:42:00Z</updated>
-    <content type="html">&lt;p&gt;Speaker: Josh Long &lt;/p&gt;
-&lt;p&gt;Slides:&lt;a href="https://speakerdeck.com/joshlong/smarter-service-to-service-invocation-with-spring-cloud"&gt; https://speakerdeck.com/joshlong/smarter-service-to-service-invocation-with-spring-cloud &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Spring Cloud 1.0 is here! It offers a powerful way to create and consume microservices. As you introduce new services, you introduce integration problems: services can be shaky, they can disappear and - as they're often exposed over HTTP - they require a bit more footwork than in-process method invocations. In this webinar, we'll focus specifically on how Spring Cloud integrates service registration (e.g.: Eureka, Consul, or Zookeeper), declarative REST clients (with Netflix's Feign), reactive programming and the circuit breaker pattern with Hystrix to support easy, robust service-to-service invocations.&lt;/p&gt;
-&lt;p&gt;Learn about about Spring Cloud at &lt;a href="http://projects.spring.io/spring-cloud"&gt;http://projects.spring.io/spring-cloud&lt;/a&gt;&lt;a href="http://projects.spring.io/spring-cloud"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Learn about about Spring Boot at &lt;a href="http://projects.spring.io/spring-security"&gt;http://projects.spring.io/spring-boot&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt; &lt;iframe width="420" height="315" src="https://www.youtube.com/embed/my3yr8Arq2g" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt; &lt;/p&gt;</content>
   </entry>
 </feed>
 

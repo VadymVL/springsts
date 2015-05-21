@@ -1,0 +1,5 @@
+package springCRUD.books.main;
+
+public class AppInitializer {
+
+}

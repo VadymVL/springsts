@@ -1,0 +1,5 @@
+package springCRUD.books.dao;
+
+public interface BooksDao {
+
+}
