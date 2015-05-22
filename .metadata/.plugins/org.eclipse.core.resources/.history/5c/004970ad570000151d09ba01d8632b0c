@@ -1,0 +1,15 @@
+package springCRUD.books.service;
+
+import springCRUD.books.model.Book;
+
+public interface BooksService {
+
+	private Book getBook(long id);
+	
+	private List<Book> listBooks();
+	
+	private void deleteBook(long id);
+	
+	private void setBook(Book book);
+	
+}

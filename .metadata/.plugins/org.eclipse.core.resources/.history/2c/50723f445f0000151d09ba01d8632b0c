@@ -1,0 +1,25 @@
+package springCRUD.books.controller;
+
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import springCRUD.books.model.Book;
+import springCRUD.books.service.BooksService;
+
+@Controller
+@RequestMapping("/book")
+public class BooksController {
+	
+	@Autowired
+	private BooksService booksService;
+	
+	@RequestMapping(value = {"/", "/list"})
+	public String listBooks(Map<String, Object> map) {
+		map.put("book", new Book());
+		map.put("booksList", booksService.listBooks());
+		return "";
+	}
+}

@@ -1,0 +1,30 @@
+package springCRUD.books.service.impl;
+
+import java.util.List;
+
+import springCRUD.books.model.Book;
+import springCRUD.books.service.BooksService;
+
+public class BooksServiceImpl implements BooksService{
+
+	public Book getBook(long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<Book> listBooks() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void deleteBook(long id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void saveBook(Book book) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
