@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="/home/mif/Documents/workspaces/STS/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/home/mif/Documents/workspaces/STS/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/springCRUD" path="/springCRUD" reloadable="true" source="org.eclipse.jst.jee.server:springCRUD"/></Host>
+      <Context docBase="/home/mif/Documents/workspaces/STS/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/home/mif/Documents/workspaces/STS/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/springCRUD" path="/springCRUD" reloadable="true" source="org.eclipse.jst.jee.server:springCRUD"/><Context docBase="/home/mif/Documents/workspaces/STS/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/bookstore" path="/bookstore" reloadable="true" source="org.eclipse.jst.jee.server:bookstore"/><Context docBase="/home/mif/Documents/workspaces/STS/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/audioLibrary" path="/audioLibrary" reloadable="true" source="org.eclipse.jst.j2ee.server:audioLibrary"/></Host>
     </Engine>
   </Service>
 </Server>

@@ -1,0 +1,7 @@
+package audioLibrary.Model;
+
+@Entity
+@Table(name="songs")
+public class SongsModel {
+
+}

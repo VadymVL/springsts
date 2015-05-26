@@ -4,12 +4,12 @@
 <head>
 <title>List Of Books</title>
 
-<link rel="stylesheet" href='<c:url value="/web-resources/css/pure-0.4.2.css"/>'>
+<link rel="stylesheet" href='<c:url value="/resources/css/pure-0.4.2.css"/>'>
 
 <link rel="stylesheet"
-       href='<c:url value="/web-resources/css/font-awesome-4.0.3/css/font-awesome.css"/>'>
+       href='<c:url value="/resources/css/font-awesome-4.0.3/css/font-awesome.css"/>'>
 <link rel="stylesheet" 
-       href='<c:url value="/web-resources/css/jquery-ui-1.10.4.custom.css"/>'>
+       href='<c:url value="/resources/css/jquery-ui-1.10.4.custom.css"/>'>
 <style type="text/css">
   th {
        text-align: left
@@ -36,26 +36,18 @@
                <tr>
                   <th width="4%">S.N</th>
                   <th width="12%">Name</th>
-                  <th width="12%">Code</th>
                   <th width="12%">Price</th>
-                  <th width="12%">Authors</th>
-                  <th width="12%">ISBN</th>
-                  <th width="12%">Publisher</th>
-                  <th width="12%">Published On</th>
+                  <th width="12%">Author</th>
                   <th width="12%"></th>
                </tr>
             </thead>
             <tbody>
-               <c:forEach items="${bookList}" var="book" varStatus="loopCounter">
+               <c:forEach items="${listBooks}" var="book" varStatus="loopCounter">
                <tr>
                    <td><c:out value="${loopCounter.count}" /></td>
                    <td><c:out value="${book.name}" /></td>
-                   <td><c:out value="${book.code}" /></td>
                    <td><c:out value="${book.price}" /></td>
-                   <td><c:out value="${book.authors}" /></td>
-                   <td><c:out value="${book.isbn}" /></td>
-                   <td><c:out value="${book.publisher}" /></td>
-                   <td><c:out value="${book.publishedOn}" /></td>
+                   <td><c:out value="${book.author}" /></td>
 
                    <td>
                      <nobr>
@@ -79,12 +71,12 @@
      <!--  It is advised to put the <script> tags at the end of the document body so that they don't block rendering of the page -->
      
     <script type="text/javascript"
-       src='<c:url value="/web-resources/js/lib/jquery-1.10.2.js"/>'></script>
+       src='<c:url value="/resources/js/lib/jquery-1.10.2.js"/>'></script>
     <script type="text/javascript"
-       src='<c:url value="/web-resources/js/lib/jquery-ui-1.10.4.custom.js"/>'></script>
+       src='<c:url value="/resources/js/lib/jquery-ui-1.10.4.custom.js"/>'></script>
     <script type="text/javascript"
-       src='<c:url value="/web-resources/js/lib/jquery.ui.datepicker.js"/>'></script>
+       src='<c:url value="/resources/js/lib/jquery.ui.datepicker.js"/>'></script>
     <script type="text/javascript"
-       src='<c:url value="/web-resources/js/js-for-listBooks.js"/>'></script>
+       src='<c:url value="/resources/js/js-for-listBooks.js"/>'></script>
 </body>
 </html> 

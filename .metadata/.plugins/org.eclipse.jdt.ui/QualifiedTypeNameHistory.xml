@@ -7,12 +7,9 @@
 <fullyQualifiedTypeName name="org.springframework.web.context.ContextLoaderListener"/>
 <fullyQualifiedTypeName name="javax.servlet.ServletRegistration"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.DispatcherServlet"/>
-<fullyQualifiedTypeName name="javax.persistence.Entity"/>
-<fullyQualifiedTypeName name="javax.persistence.Table"/>
 <fullyQualifiedTypeName name="javax.persistence.Id"/>
 <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
 <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
-<fullyQualifiedTypeName name="javax.persistence.Column"/>
 <fullyQualifiedTypeName name="springCRUD.books.dao.BooksDao"/>
 <fullyQualifiedTypeName name="springCRUD.books.model.Book"/>
 <fullyQualifiedTypeName name="java.util.List"/>
@@ -20,4 +17,8 @@
 <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="org.hibernate.Session"/>
+<fullyQualifiedTypeName name="org.hibernate.annotations.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
 </qualifiedTypeNameHistroy>
